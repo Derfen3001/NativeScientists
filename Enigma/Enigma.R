@@ -13,7 +13,7 @@ option_list = list(
     c("-o", "--output"),
     type = "character",
     default = './output.txt',
-    help = "output file",
+    help = "output file [default = %default]",
     metavar = "character"
   ),
   make_option(
@@ -27,7 +27,7 @@ option_list = list(
     c("-k", "--key"),
     type = "integer",
     default = 1,
-    help = "Encryption Key",
+    help = "Encryption Key [default = %default]", 
     metavar = "integer"
   )
 )
